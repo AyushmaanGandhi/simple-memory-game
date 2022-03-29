@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](gif1-link-here)![Project gif(win)](https://user-images.githubusercontent.com/66655968/160678033-9fbdefec-428e-4727-a6e2-d011c7d58352.gif)
-Win game!
+
 ![](gif2-link-here)![Project gif(lose)](https://user-images.githubusercontent.com/66655968/160678124-187f8bbd-202b-43af-b0c1-af75518f4e61.gif)
 
 ![](gif3-link-here)![Project gif(diff pattern)](https://user-images.githubusercontent.com/66655968/160678227-873380de-4f03-40d2-93b7-216b16ddc29f.gif)
