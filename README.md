@@ -6,9 +6,7 @@ Submitted by: Ayushmaan Gandhi
 
 Time spent: **6.5** hours spent in total
 
-Link to project:
-Code: https://glitch.com/edit/#!/malleable-airy-handball
-Live site: https://malleable-airy-handball.glitch.me
+Link to project: https://glitch.com/edit/#!/malleable-airy-handball
 
 ## Required Functionality
 
