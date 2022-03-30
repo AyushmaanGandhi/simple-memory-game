@@ -49,22 +49,22 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+I referred to the ‘JavaScript Random’ page on W3Schools (https://www.w3schools.com/js/js_random.asp) in order to understand how to randomly pick an integer within my desired minimum and maximum value. I applied the line of code that I learned here (line 17) into my randomnumber() function, with which I was able to generate a new random pattern at the beginning of every game.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+I had a fair amount of trouble with the second optional task of speeding up the game. After I updated the clueHoldTime constant to a variable, I went to my playClueSequence function and coded “clueHoldTime *= .9” inside of the for loop, so that hold time would multiply itself by .9 every time, thus slightly decreasing with each turn. However, after running the code, I noticed that the hold time would still be sped up even when I would start the game over. Essentially, the hold time would not reset itself to 1000 every time I restarted the game, but rather it would pick up where the last game left off. In order to get around this issue, I tried initializing the clueHoldTime to 1000 in my playClueSequence function before the for loop started. However, this simply made it so that the hold time would decrease with every single new clue, rather than decreasing after every turn. I finally overcame this issue by coming to the conclusion that I must initialize clueHoldTime before the playClueSequence function even takes place. This way, the hold time could reset to 1000 at the start of every game, and the hold time would decrease with every turn rather than every clue. In order to make this happen, I initialized clueHoldTime in my startGame function right before I called my playClueSequence function. This worked as I expected since the hold time sped up on every turn instead of guess, and it reset to 1000 every time I started a new game.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+Are HTML, CSS, and JavaScript the industry standard for web development, or are other languages also frequently used? In a work environment, is it common for someone to specialize and focus on one of the three languages (HTML, CSS, JavaScript) for a given project, or are they expected to develop code in each of the three languages for said project? What strategies are most effective in debugging your code during web development? Most of my coding experience has been with Python, and when assigning a variable in Python, you don’t have to explicitly put the “var” keyword. The same goes for constants. How come you have to explicitly put “var” or “const” when declaring these in JavaScript? Are there any benefits to this, or is it purely just relevant to the syntax?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+If I had a few more hours I would have chosen to create different difficulty levels to the game. The player would first be prompted with whether they want “easy”, “medium”, or “hard” mode. These prompts would be presented as buttons. The user would click the button of their choice and the corresponding game would then be displayed. In the “easy” mode, the clue playback would not speed up as the turns progress. In the “medium” mode, the clue playback would speed up. Essentially, this is the mode that I have already created for the pre-work. In the “hard” mode, the clue playback would speed up and there would be no audio when the buttons are clicked, so players will have to rely solely on their visual memory. Another implementation that I would make is allowing the player to continue the game until they make a mistake. Instead of there only being eight turns, players would have the opportunity to see how many turns they can last until they falter.
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/8533703f9b954381af84247d9f974aac)
 
 
 ## License
